@@ -1,0 +1,64 @@
+
+@import "shop.css";
+
+body {
+    background-color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    border-radius: 100px;
+}
+
+img:hover {
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.pageHeader {
+    padding: 1em;
+    text-align: center;
+    background-color: rgb(66, 40, 0);
+    width: 60%;
+    margin:auto;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 1.5em;
+    
+}
+
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.shop {
+    border: 1px dashed black;
+    /* padding: 1em; */
+    margin-left: 1em;
+    text-align: left;
+    flex-basis: 25%;
+    background-color:rgb(139, 86, 6);
+
+
+}
+
+.shop:hover {
+    background-color: white;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out 0s;
+
+  }
+  
+  a:link {
+    color: #e96666;
+  }
+
+  a:visited {
+    color: #799279;
+  }
